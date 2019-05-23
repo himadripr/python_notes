@@ -1,0 +1,48 @@
+﻿Python notes
+
+
+
+
+1. Convert string to json:-
+https://www.tutorialspoint.com/How-to-convert-string-to-JSON-using-Python
+
+
+1. REST Api using FLASK
+https://scotch.io/bar-talk/processing-incoming-request-data-in-flask
+
+
+https://www.youtube.com/watch?v=s_ht4AKnWZg
+
+
+https://www.youtube.com/watch?v=vzrDQdEsbN0
+
+
+
+
+
+
+1. Note:-
+To read the data, first you must understand how Flask translates JSON data into Python data structures.
+Anything that is an object gets converted to a Python dict. {"key" : "value"} in JSON corresponds to somedict['key'], which returns a value in Python.
+An array in JSON gets converted to a list in Python. Since the syntax is the same, here's an example list: [1,2,3,4,5]
+Then the values inside of quotes in the JSON object become strings in Python. true and falsebecome True and False in Python. Finally, numbers without quotes around them become numbers in Python.
+Now let's get on to reading the incoming JSON data.
+First, let's assign everything from the JSON object into a variable using request.get_json().
+
+
+
+
+1. Length of array - 
+https://www.hacksparrow.com/python-length-or-size-of-list-tuple-array.html
+
+
+use len(array) function
+
+
+1. How to get values from POST data using Flask:-
+https://medium.com/@onejohi/building-a-simple-rest-api-with-python-and-flask-b404371dc699
+
+
+
+
+1.
